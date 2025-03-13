@@ -7,7 +7,9 @@ export const Navbar = () => {
     <div className="navbar">
       {/* Logo */}
       <div className="navbar-logo">
-        <Image src="/assets/images/Logo BMT New Landscape.png" alt="bmt-logo" width={100} height={80} />
+        <Link href={'/'}>
+          <Image src="/assets/images/Logo BMT New Landscape.png" alt="bmt-logo" width={100} height={80} />
+        </Link>
       </div>
 
       {/* Menu Navigation */}
