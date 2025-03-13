@@ -14,8 +14,8 @@ export const Navbar = () => {
 
       {/* Menu Navigation */}
       <div className="navbar-dir">
-        <Link href="#">HOME</Link>
-        <Link href="#tourbmt">TOUR</Link>
+        <Link href="/">HOME</Link>
+        <Link href="/#tourbmt">TOUR</Link>
         <Link href="https://wa.me/6285117289188" target="_blank">
           FLIGHT
         </Link>

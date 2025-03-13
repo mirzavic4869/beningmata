@@ -1,12 +1,13 @@
 import React from 'react';
 import styles from './styles.module.css';
+import Link from 'next/link';
 
 export const Tour = () => {
   return (
     <div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="bkk1.html">
+          <Link href="/bkk1">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk1.png" alt="explore-bangkok" />
@@ -30,10 +31,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk2.html">
+          <Link href="/bkk2">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk2.png" alt="bangkok-pataya" />
@@ -57,10 +58,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk3.html">
+          <Link href="/bkk3">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk3.png" alt="bkk3" />
@@ -84,10 +85,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk4.html">
+          <Link href="/bkk4">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk4.png" alt="bkk4" />
@@ -111,12 +112,12 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="bkk5.html">
+          <Link href="/bkk5">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk5.png" alt="bestofturkey" />
@@ -140,10 +141,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk6.html">
+          <Link href="/bkk6">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk6.png" alt="japan-newyear" />
@@ -167,10 +168,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk7.html">
+          <Link href="/bkk7">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk7.png" alt="korea-new" />
@@ -194,10 +195,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk8.html">
+          <Link href="/bkk8">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bkk8.png" alt="phuket-philipine" />
@@ -221,12 +222,12 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="bangkok-bkk2.html">
+          <Link href="/bangkok-bkk2">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-bkk2.png" alt="bestofturkey" />
@@ -250,10 +251,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bangkok-chaopraya.html">
+          <Link href="/bangkok-chaopraya">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-chaopraya.png" alt="japan-newyear" />
@@ -277,10 +278,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bangkok-pattaya-4d3n.html">
+          <Link href="/bangkok-pattaya-4d3n">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-pattaya-4d3n.png" alt="korea-new" />
@@ -304,10 +305,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bangkok-pattaya-khaoyai.html">
+          <Link href="/bangkok-pattaya-khaoyai">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-pattaya-khaoyai.png" alt="phuket-philipine" />
@@ -331,12 +332,12 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="bangkok-pattaya-micheline.html">
+          <Link href="/bangkok-pattaya-micheline">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-pattaya-micheline.png" alt="thailand" />
@@ -360,10 +361,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="beijing-shanghai.html">
+          <Link href="/beijing-shanghai">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/beijing-shanghai.png" alt="japan-newyear" />
@@ -387,10 +388,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="chiangmai-4d3n.html">
+          <Link href="/chiangmai-4d3n">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/chiangmai-4d3n.png" alt="korea-new" />
@@ -414,10 +415,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="discover-vietnam-hanoi.html">
+          <Link href="/discover-vietnam-hanoi">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/discover-vietnam-hanoi.png" alt="phuket-philipine" />
@@ -441,12 +442,12 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="phuket-jamesbond.html">
+          <Link href="/phuket-jamesbond">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/phuket-jamesbond.png" alt="bestofturkey" />
@@ -470,10 +471,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="7D6N-3Countries.html">
+          <Link href="/7D6N-3Countries">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/7D6N-3Countries.png" alt="japan-newyear" />
@@ -497,10 +498,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="melbourne-sydney.html">
+          <Link href="/melbourne-sydney">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/melbourne-sydney.png" alt="korea-new" />
@@ -524,10 +525,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="explore-africa.html">
+          <Link href="/explore-africa">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/explore-africa.png" alt="phuket-philipine" />
@@ -551,12 +552,12 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
       <div className={styles.tourcontainer}>
         <div className={styles.cardcontainer}>
-          <a href="eropa-9days.html">
+          <Link href="/eropa-9days">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/eropa-9days.png" alt="bestofturkey" />
@@ -580,10 +581,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="eropa-11days.html">
+          <Link href="/eropa-11days">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/eropa-11days.png" alt="japan-newyear" />
@@ -607,10 +608,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="eropa-13days.html">
+          <Link href="/eropa-13days">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/eropa-13days.png" alt="korea-new" />
@@ -634,10 +635,10 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
         <div className={styles.cardcontainer}>
-          <a href="bkk8.html">
+          <Link href="/bkk8">
             <div className={styles.cardwrapper}>
               <div className={styles.imgwrap}>
                 <img src="/assets/images/internasional/bangkok-pattaya-khaoyai.png" alt="phuket-philipine" />
@@ -661,7 +662,7 @@ export const Tour = () => {
                 </div>
               </div>
             </div>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
