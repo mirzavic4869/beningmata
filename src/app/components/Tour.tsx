@@ -11,12 +11,12 @@ export const Tour = () => {
         </div>
       </div>
       <div className="frame-domestik">
-        <Link href="domestik.html">
+        <Link href="../domestik">
           <Image className="domestik-img" src="/assets/images/domestik.png" alt="domestik" width={800} height={600} quality={80} />
         </Link>
       </div>
       <div className="frame-international">
-        <Link href="international.html">
+        <Link href="../internasional">
           <Image src="/assets/images/Internasional.png" alt="international" className="international-img" width={800} height={600} quality={80} />
         </Link>
       </div>
