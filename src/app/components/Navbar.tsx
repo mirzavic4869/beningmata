@@ -5,9 +5,12 @@ import React from 'react';
 export const Navbar = () => {
   return (
     <div className="navbar">
+      {/* Logo */}
       <div className="navbar-logo">
         <Image src="/assets/images/Logo BMT New Landscape.png" alt="bmt-logo" width={100} height={80} />
       </div>
+
+      {/* Menu Navigation */}
       <div className="navbar-dir">
         <Link href="#">HOME</Link>
         <Link href="#tourbmt">TOUR</Link>
@@ -21,14 +24,16 @@ export const Navbar = () => {
           MORE
         </Link>
       </div>
+
+      {/* Login & Register Buttons */}
       <div className="btn-login">
         <div className="btn-container">
-          <button className="login-wrapper">
+          <Link href="/login" className="login-wrapper">
             <div className="login">Log In</div>
-          </button>
-          <button className="signup-wrapper">
+          </Link>
+          <Link href="/register" className="signup-wrapper">
             <div className="signup">Sign Up</div>
-          </button>
+          </Link>
         </div>
       </div>
     </div>
